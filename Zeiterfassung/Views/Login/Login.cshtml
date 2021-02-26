@@ -1,0 +1,22 @@
+﻿@model Zeiterfassung.Models.Employees
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-lg-3">
+        <p>
+            <h2>Anmeldung</h2>
+            @using (Html.BeginForm("Login", "Login"))
+            {
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email-Adresse", @type="email"})
+                @Html.LabelFor(m => m.Password)
+                @Html.TextBoxFor(m => m.Password, new { @class = "form-control", @placeholder = "Passwort", @type = "password"})
+
+                <input type="submit" name="Login" value="Enter" class="btn btn-primary btn-lg btn-block" />
+            }
+        </p>
+    </div>
+</div>

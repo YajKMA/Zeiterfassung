@@ -1,0 +1,366 @@
+H:\SWP\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csprojAssemblyReference.cache
+H:\SWP\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CoreCompileInputs.cache
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll.config
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.pdb
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe.config
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.rsp
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe.config
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.rsp
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Managed.Core.targets
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.AppContext.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Collections.Immutable.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Console.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Globalization.Calendars.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.ZipFile.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Http.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Sockets.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Reflection.Metadata.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.ValueTuple.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XmlDocument.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe.config
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.rsp
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe.config
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Microsoft.Web.Infrastructure.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\WebGrease.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.pdb
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Helpers.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Mvc.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Optimization.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Razor.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Deployment.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Razor.resources.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CopyComplete
+H:\SWP\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.dll
+H:\SWP\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.pdb
+S:\4 DHK\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csprojAssemblyReference.cache
+S:\4 DHK\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CoreCompileInputs.cache
+S:\4 DHK\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.pdb
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll.config
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.pdb
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe.config
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.rsp
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe.config
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.rsp
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Managed.Core.targets
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Win32.Primitives.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.AppContext.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Collections.Immutable.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Console.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Globalization.Calendars.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.ZipFile.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Http.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Sockets.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Reflection.Metadata.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.ValueTuple.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XmlDocument.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe.config
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.rsp
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe.config
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Microsoft.Web.Infrastructure.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\WebGrease.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.pdb
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Helpers.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Mvc.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Optimization.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Razor.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Deployment.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Razor.resources.dll
+S:\4 DHK\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CopyComplete
+C:\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll.config
+C:\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.dll
+C:\Zeiterfassung\Zeiterfassung\bin\Zeiterfassung.pdb
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.exe.config
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csc.rsp
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.exe.config
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\csi.rsp
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.AppContext.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Collections.Immutable.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Console.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Globalization.Calendars.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Http.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Net.Sockets.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Reflection.Metadata.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.ValueTuple.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.exe.config
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\vbc.rsp
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe
+C:\Zeiterfassung\Zeiterfassung\bin\roslyn\VBCSCompiler.exe.config
+C:\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.dll
+C:\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Zeiterfassung\Zeiterfassung\bin\Microsoft.Web.Infrastructure.dll
+C:\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.dll
+C:\Zeiterfassung\Zeiterfassung\bin\WebGrease.dll
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Helpers.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Mvc.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Optimization.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.Razor.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Deployment.xml
+C:\Zeiterfassung\Zeiterfassung\bin\System.Web.WebPages.Razor.xml
+C:\Zeiterfassung\Zeiterfassung\bin\Newtonsoft.Json.xml
+C:\Zeiterfassung\Zeiterfassung\bin\Antlr3.Runtime.pdb
+C:\Zeiterfassung\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Helpers.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Mvc.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Optimization.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.Razor.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Deployment.resources.dll
+C:\Zeiterfassung\Zeiterfassung\bin\de\System.Web.WebPages.Razor.resources.dll
+C:\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csprojAssemblyReference.cache
+C:\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CoreCompileInputs.cache
+C:\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CopyComplete
+C:\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.dll
+C:\Zeiterfassung\Zeiterfassung\obj\Debug\Zeiterfassung.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung.dll.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csc.exe
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csc.exe.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csc.rsp
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csi.exe
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csi.exe.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\csi.rsp
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.AppContext.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Collections.Immutable.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Console.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Globalization.Calendars.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.IO.Compression.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.IO.FileSystem.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Net.Http.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Net.Sockets.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Reflection.Metadata.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.ValueTuple.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Xml.XPath.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\vbc.exe
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\vbc.exe.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\vbc.rsp
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\VBCSCompiler.exe
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\roslyn\VBCSCompiler.exe.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Antlr3.Runtime.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\DB.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Microsoft.Web.Infrastructure.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\MySql.Data.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Newtonsoft.Json.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Security.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Helpers.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Mvc.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Optimization.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Razor.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.Deployment.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.Razor.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\WebGrease.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung_Domain.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Google.Protobuf.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zstandard.Net.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\K4os.Compression.LZ4.Streams.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\BouncyCastle.Crypto.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Ubiety.Dns.Core.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Renci.SshNet.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Memory.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Buffers.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\K4os.Compression.LZ4.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\K4os.Hash.xxHash.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\DB.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\DB.dll.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Security.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Security.dll.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung_Domain.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Zeiterfassung_Domain.dll.config
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\MySql.Data.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Helpers.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Mvc.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Optimization.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.Razor.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.Deployment.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\System.Web.WebPages.Razor.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Newtonsoft.Json.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Antlr3.Runtime.pdb
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.Helpers.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.Mvc.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.Optimization.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.Razor.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.WebPages.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.WebPages.Deployment.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\bin\de\System.Web.WebPages.Razor.resources.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csprojAssemblyReference.cache
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CoreCompileInputs.cache
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CopyComplete
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.dll
+D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.pdb

@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "EmployeeList";
+}
+@{ 
+    var data = ViewBag.Message;
+}
+
+<h2>Mitarbeiterliste</h2>
+
+<div class="row">
+    <div class="col-lg-8">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Mitarbeiter Nr.</th>
+                    <th scope="col">Vor- und Zuname</th>
+                    <th scope="col">Email-Adresse</th>
+                    <th scope="col">Passwort</th>
+                    <th scope="col">Ist Admin?</th>
+                    <th scope="col">Bearbeiten?</th>
+                    <th scope="col">Löschen?</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in data.SQLReadEmployees())
+
+                {
+                <tr>
+                    <th scope="row">@item.EmployeeNumber;</th>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Password</td>
+                    @if (item.Admin)
+                    {
+                        <td>ja</td>
+                    }
+                    @if (!item.Admin)
+                    {
+                        <td>nein</td>
+                    }
+                    <td><a href="/Home/EditEmployee/@item.EmployeeNumber">Edit</a></td>
+                    <td><a href="/DB/DeleteEmployee/@item.EmployeeNumber">Löschen</a></td>
+
+
+
+                </tr>}
+
+            </tbody>
+        </table>
+
+  
+    </div>
+</div>
+
