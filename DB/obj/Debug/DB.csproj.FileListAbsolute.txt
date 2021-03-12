@@ -76,3 +76,7 @@ D:\Wegklatscshen\4D\Zeiterfassung\ZF\DB\obj\Debug\DB.csproj.CoreCompileInputs.ca
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\DB\obj\Debug\DB.csproj.CopyComplete
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\DB\obj\Debug\DB.dll
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\DB\obj\Debug\DB.pdb
+D:\School\SWP\Zeiterfassung\ZF\ZF\DB\obj\Debug\DB.csprojAssemblyReference.cache
+D:\School\SWP\Zeiterfassung\ZF\ZF\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+D:\School\SWP\Zeiterfassung\ZF\ZF\DB\obj\Debug\DB.dll
+D:\School\SWP\Zeiterfassung\ZF\ZF\DB\obj\Debug\DB.pdb

@@ -364,3 +364,7 @@ D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.cspro
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CopyComplete
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.dll
 D:\Wegklatscshen\4D\Zeiterfassung\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.pdb
+D:\School\SWP\Zeiterfassung\ZF\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csprojAssemblyReference.cache
+D:\School\SWP\Zeiterfassung\ZF\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.csproj.CoreCompileInputs.cache
+D:\School\SWP\Zeiterfassung\ZF\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.dll
+D:\School\SWP\Zeiterfassung\ZF\ZF\Zeiterfassung\obj\Debug\Zeiterfassung.pdb

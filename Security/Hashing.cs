@@ -31,7 +31,7 @@ namespace Security
             }
             else
             {
-                throw new InvalidOperationException("Password is null du nega");
+                throw new InvalidOperationException("Password is null du hund");
             }
             
         }

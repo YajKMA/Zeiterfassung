@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using DB;
 using Zeiterfassung_Domain;
+using Zeiterfassung_Domain.Interface;
 
 namespace Zeiterfassung.Controllers
 {
@@ -14,7 +15,8 @@ namespace Zeiterfassung.Controllers
     {
 
 
-        ILogic db = new DBEmployeeLogic();
+        IEmployeeLogic db = new DBEmployeeLogic();
+
         public ActionResult Index()
         {
             return View();

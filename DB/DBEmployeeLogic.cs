@@ -65,10 +65,10 @@ namespace DB
             OpenConnection(DBConnect);
             string HashedPassword = hashing.GetHash(employee.Password);
 
-            string SQL = "INSERT INTO employees(EmployeeNumber, Name, Email, Password, Admin) VALUES(@EmployeeNr,@Name,@Email,@Password,@Admin)";
+            string SQL = "INSERT INTO employees(Name, Email, Password, Admin) VALUES(@Name,@Email,@Password,@Admin)";
             MySqlCommand cmd = new MySqlCommand(SQL, DBConnect);
 
-            cmd.Parameters.AddWithValue("EmployeeNr", CountRows());
+
             cmd.Parameters.AddWithValue("Name", employee.Name);
             cmd.Parameters.AddWithValue("Email", employee.Email);
             cmd.Parameters.AddWithValue("Password", HashedPassword);

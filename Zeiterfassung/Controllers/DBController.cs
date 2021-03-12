@@ -9,14 +9,14 @@ using System.Security.Cryptography;
 using DB;
 using Security;
 using Zeiterfassung_Domain;
-
+using Zeiterfassung_Domain.Interface;
 
 namespace Zeiterfassung.Controllers
 {
     
     public class DBController : Controller
     {
-        ILogic db = new DBEmployeeLogic();
+        IEmployeeLogic db = new DBEmployeeLogic();
 
         
 
