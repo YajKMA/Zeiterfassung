@@ -1,26 +1,38 @@
-﻿using System;
+﻿using DB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Web;
 using System.Web.Mvc;
-
+using Zeiterfassung_Domain.Interface;
 
 namespace Zeiterfassung.Controllers
 {
+
     public class LoginController : Controller
     {
+
+        IEmployeeLogic db = new DBEmployeeLogic();
+
         public ActionResult Login()
         {
             return View("Login");
         }
 
         [HttpPost]
-        public ActionResult Login(Zeiterfassung_Domain.Employee model)
+        public ActionResult Login(Zeiterfassung_Domain.Employee model, Zeiterfassung_Domain.Employee emp)
         {
-            //Überprüfung ob EMail und Passwort übereinstimmen
-            return View("../Home/Index", model);
-        
+            Session["user"] = model;
+            emp = db.SQLReadEmployeebyEmail(model.GivenEmail);
+            if (emp.Admin == true)
+            {
+                return RedirectToAction("Admin", "Home");
+            }
+            else
+            {
+                return View("../Home/Index", model);
+            }
         }
 
         public ActionResult Logout()

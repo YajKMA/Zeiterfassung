@@ -1,6 +1,4 @@
-﻿@model Zeiterfassung_Domain.Time
-
-@{
+﻿@model Zeiterfassung_Domain.ModelCombiner
     ViewBag.Title = "TimeStop";
 }
 
@@ -9,14 +7,16 @@
     <div class="col-lg-6">
         @using (Html.BeginForm("Stop", "Home"))
         {
-            <input type="submit" name="EndButton" value="Zählung stoppen" class="btn btn-primary btn-lg" /><br /><br />
-            @Html.HiddenFor(m => m.StartTime)
+<input type="submit" name="EndButton" value="Zählung stoppen" class="btn btn-primary btn-lg" /><br /><br />
+                @Html.HiddenFor(m => m.timemodel.StartTime)
+                @Html.HiddenFor(m => m.employeemodel.GivenEmail)
+                @Html.HiddenFor(m => m.employeemodel)
         }
     </div>
 </div>
 <div class="row">
     <div class="col-lg-12">
-        <h1>@Model.ResultTime</h1>
+        <h1>Ihre Zeit beträgt @Model.timemodel.ResultTime</h1>
     </div>
 </div>
 

@@ -16,8 +16,15 @@ namespace Zeiterfassung.Controllers
 
 
         IEmployeeLogic db = new DBEmployeeLogic();
+        ITimeLogic tdb = new DBTimeLogic();
+
+        
 
         public ActionResult Index()
+        {
+            return View();
+        }
+        public ActionResult Admin()
         {
             return View();
         }
@@ -39,11 +46,6 @@ namespace Zeiterfassung.Controllers
         }
 
 
-
-        public ActionResult test()
-        {
-            return View("test");
-        }
 
         [HttpPost]
         public ActionResult Index(Zeiterfassung_Domain.Employee model)
@@ -67,28 +69,47 @@ namespace Zeiterfassung.Controllers
 
         public ActionResult TimeStart()
         {
-
             return View();
         }
 
         [HttpPost]
-        public ActionResult Start(Zeiterfassung_Domain.Time model)
+        public ActionResult Start(ModelCombiner mc)
         {
-            model.StartTime = DateTime.Now;
-            return View("TimeStop", model);
+            mc.timemodel = new Time();
+            mc.timemodel.StartTime = DateTime.Now;
+            return View("TimeStop", mc);
         }
         
+        
         [HttpPost]
-        public ActionResult Stop(Zeiterfassung_Domain.Time model)
+        public ActionResult Stop(ModelCombiner mc)
         {
-            model.EndTime = DateTime.Now;
-            model.ResultTime = model.EndTime - model.StartTime;
-            return View("TimeStop", model);
+            mc.employeemodel = (Employee)Session["user"];
+            if (mc.employeemodel.GivenEmail != null)
+            {
+                mc.timemodel.EndTime = DateTime.Now;
+                mc.timemodel.ResultTime = mc.timemodel.EndTime - mc.timemodel.StartTime;
+                tdb.SQLAddTime(mc.timemodel, mc.employeemodel.GivenEmail);
+                return View("TimeStop", mc);
+            }
+            else
+            {
+                return View("Login");
+            }           
         }
 
         public ActionResult EmployeeList()
         {            
             ViewBag.Message = db;
+            return View();
+        }
+
+
+        public ActionResult TimeView()
+        {
+            ModelCombiner mc = new ModelCombiner();
+            mc.employeemodel = (Employee)Session["User"];
+            ViewBag.Message = tdb.SQLReadTimebyID(mc.employeemodel.GivenEmail);   
             return View();
         }
     }

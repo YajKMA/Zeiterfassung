@@ -24,7 +24,7 @@ namespace DB
             OpenConnection(DBConnect);
             MySqlDataReader rdr = cmd.ExecuteReader();
 
-            int count = 1;
+            int count = 0;
 
             while (rdr.Read())
             {
@@ -35,19 +35,19 @@ namespace DB
 
         public void CheckRows()
         {
-            List<Employee> cock = SQLReadEmployees();
+            List<Employee> cr = SQLReadEmployees();
 
-            foreach (Employee item in cock)
+            foreach (Employee item in cr)
             {
                 if (item.EmployeeNumber == 1)
                 {
                     continue;
                 }
-                if (item.EmployeeNumber -1 == cock.IndexOf(item)+1)
+                if (item.EmployeeNumber -1 == cr.IndexOf(item)+1)
                 {
-                    for (int i = cock.IndexOf(item); i < cock.Count -1; i++)
+                    for (int i = cr.IndexOf(item); i < cr.Count -1; i++)
                     {
-                        cock[i].EmployeeNumber -= 1;
+                        cr[i].EmployeeNumber -= 1;
                     }
                     break;
                 }
@@ -65,10 +65,10 @@ namespace DB
             OpenConnection(DBConnect);
             string HashedPassword = hashing.GetHash(employee.Password);
 
-            string SQL = "INSERT INTO employees(Name, Email, Password, Admin) VALUES(@Name,@Email,@Password,@Admin)";
+            string SQL = "INSERT INTO employees(EmployeeNumber, Name, Email, Password, Admin) VALUES(@EmployeeID, @Name,@Email,@Password,@Admin)";
             MySqlCommand cmd = new MySqlCommand(SQL, DBConnect);
 
-
+            cmd.Parameters.AddWithValue("EmployeeID", CountRows());
             cmd.Parameters.AddWithValue("Name", employee.Name);
             cmd.Parameters.AddWithValue("Email", employee.Email);
             cmd.Parameters.AddWithValue("Password", HashedPassword);
@@ -113,6 +113,34 @@ namespace DB
             OpenConnection(DBConnect);
 
             string sql = "SELECT * FROM employees WHERE EmployeeNumber =" +id;
+            MySqlCommand cmd = new MySqlCommand(sql, DBConnect);
+            OpenConnection(DBConnect);
+            MySqlDataReader rdr = cmd.ExecuteReader();
+
+            if (rdr.HasRows)
+            {
+                while (rdr.Read())
+                {
+                    Employee emp = new Employee();
+
+                    emp.EmployeeNumber = rdr.GetInt32(0);
+                    emp.Name = rdr.GetString(1);
+                    emp.Email = rdr.GetString(2);
+                    emp.Password = rdr.GetString(3);
+                    emp.Admin = rdr.GetBoolean(4);
+
+                    return emp;
+                }
+            }
+            return null;
+        }
+
+        public Employee SQLReadEmployeebyEmail(string Email)
+        {
+            MySqlConnection DBConnect = new MySqlConnection(connection);
+            OpenConnection(DBConnect);
+
+            string sql = $"SELECT * FROM employees WHERE Email = '{Email}'";
             MySqlCommand cmd = new MySqlCommand(sql, DBConnect);
             OpenConnection(DBConnect);
             MySqlDataReader rdr = cmd.ExecuteReader();

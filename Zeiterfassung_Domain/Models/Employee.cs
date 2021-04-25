@@ -19,6 +19,10 @@ namespace Zeiterfassung_Domain
         [Display(Name = "E-Mail")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Ihr Email-Adresse wird benötigt")]
+        [Display(Name = "E-Mail")]
+        public string GivenEmail { get; set; }
+
         [Required(ErrorMessage = "Ihr Passwort wird benötigt")]
         [Display(Name = "Passwort")]
         public string Password { get; set; }

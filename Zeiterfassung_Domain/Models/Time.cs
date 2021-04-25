@@ -6,6 +6,12 @@ using System.Web;
 
 namespace Zeiterfassung_Domain
 {
+
+    public class ModelCombiner
+    {
+        public Employee employeemodel { get; set; }
+        public Time timemodel { get; set; }
+    }
     public class Time
     {
         public string Activity { get; set; }

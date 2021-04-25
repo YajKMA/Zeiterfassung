@@ -12,6 +12,8 @@ namespace Zeiterfassung_Domain.Interface
 
         Employee SQLReadEmployeebyID(int id);
 
+        Employee SQLReadEmployeebyEmail(string Email);
+
         void SQLAddEmployee(Employee employee);
 
         void SQLUpdateEmployee(Employee employee);

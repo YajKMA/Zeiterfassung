@@ -10,9 +10,10 @@ namespace Zeiterfassung_Domain.Interface
     {
         List<Time> SQLReadTime();
 
-        Time SQLReadTimebyID(int id);
+       List<Time> SQLReadTimebyID(string Email); //Email because the method ReadEmployeeByEmail is used to get the id
 
-        void SQLAddTime(Time time);
+
+        void SQLAddTime(Time time, string Email);
 
         void SQLUpdateTime(Time time);
         void SQLRemoveTime(int id);

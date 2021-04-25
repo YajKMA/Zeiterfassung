@@ -9,6 +9,8 @@ namespace DB
     public class DBTimeLogic : ITimeLogic
     {
         internal string connection = "datasource = localhost; port= 3306; username = root; password=; database = zeiterfassung";
+
+        IEmployeeLogic db = new DBEmployeeLogic();
         public void CheckRows()
         {
             throw new System.NotImplementedException();
@@ -38,24 +40,23 @@ namespace DB
             }
         }
 
-        public void SQLAddTime(Time time)
+        public void SQLAddTime(Time time, string Email)
         {
             MySqlConnection DBConnect = new MySqlConnection(connection);
             OpenConnection(DBConnect);
             Employee emp = new Employee();
 
-            time.EmployeeID = emp.EmployeeNumber;
-            
+            db.SQLReadEmployeebyEmail(Email);
 
-            string SQL = "INSERT INTO time(EmployeeNumber = @EmployeeID, StartTime = @StartTime, EndTime = @EndTime, ResultTime = @ResultTime)";
+            
+            string SQL = "INSERT INTO time(EmployeeNumber, StartTime, EndTime, ResultTime) VALUES(@EmployeeID,@StartTime,@EndTime,@ResultTime)";
             MySqlCommand cmd = new MySqlCommand(SQL, DBConnect);
 
-            cmd.Parameters.AddWithValue("EmployeeID", time.EmployeeID);
+            cmd.Parameters.AddWithValue("EmployeeID", emp.EmployeeNumber);
             cmd.Parameters.AddWithValue("StartTime", time.StartTime);
             cmd.Parameters.AddWithValue("EndTime", time.EndTime);
-            cmd.Parameters.AddWithValue("ResultTime", time.ResultTime);
+            cmd.Parameters.AddWithValue("ResultTime", time.ResultTime.ToString());
 
-            //add cmd.Parameters.withvalue();
 
             cmd.ExecuteNonQuery();
         }
@@ -91,10 +92,45 @@ namespace DB
             }
         }
 
-        public Time SQLReadTimebyID(int id)
+        
+
+        public List<Time> SQLReadTimebyID(string Email)
         {
-            throw new System.NotImplementedException();
+            {
+                MySqlConnection DBConnect = new MySqlConnection(connection);
+                OpenConnection(DBConnect);
+
+                Employee emp = new Employee();
+
+                db.SQLReadEmployeebyEmail(Email);
+
+
+                List<Time> returnList = new List<Time>();
+
+                string sql = "SELECT * FROM time WHERE EmployeeNumber =" + emp.EmployeeNumber;
+                MySqlCommand cmd = new MySqlCommand(sql, DBConnect);
+                OpenConnection(DBConnect);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+                        Time t = new Time();
+
+                        t.EmployeeID = rdr.GetInt32(0);
+                        t.StartTime = rdr.GetDateTime(1);
+                        t.EndTime = rdr.GetDateTime(2);
+                        t.ResultTime = rdr.GetTimeSpan(3);
+
+                        returnList.Add(t);
+                    }
+                }
+                return returnList;
+            }
         }
+
+        
 
         public void SQLRemoveTime(int id)
         {

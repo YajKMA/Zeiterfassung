@@ -1,4 +1,4 @@
-﻿@model Zeiterfassung_Domain.Time
+﻿@model Zeiterfassung_Domain.ModelCombiner
 
 
 @{
@@ -12,10 +12,11 @@
     <div class="col-lg-6">
         @using (Html.BeginForm("Start", "Home"))
         {
-            <input type="submit" name="StartButton" value="Zählung starten" class="btn btn-primary btn-lg" /><br /><br />
+    <input type="submit" name="StartButton" value="Zählung starten" class="btn btn-primary btn-lg" /><br /><br />
         }
 
-        @Html.ActionLink("killmyself", "EmployeeList", "Home")
+
+
 
 
     </div>

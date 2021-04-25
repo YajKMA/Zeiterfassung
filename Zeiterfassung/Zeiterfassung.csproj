@@ -162,7 +162,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Home\TimeStart.cshtml" />
     <Content Include="Views\Home\TimeStop.cshtml" />
@@ -170,6 +169,8 @@
     <Content Include="Views\Login\Register.cshtml" />
     <Content Include="Views\Home\EmployeeList.cshtml" />
     <Content Include="Views\Home\EditEmployee.cshtml" />
+    <Content Include="Views\Home\TimeView.cshtml" />
+    <Content Include="Views\Home\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
