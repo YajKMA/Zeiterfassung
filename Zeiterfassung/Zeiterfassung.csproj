@@ -171,6 +171,7 @@
     <Content Include="Views\Home\EditEmployee.cshtml" />
     <Content Include="Views\Home\TimeView.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
+    <Content Include="Views\Home\AdminTimeView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

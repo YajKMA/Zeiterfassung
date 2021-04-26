@@ -18,6 +18,7 @@
                     <th scope="col">Email-Adresse</th>
                     <th scope="col">Passwort</th>
                     <th scope="col">Ist Admin?</th>
+                    <th scope="col">Arbeitszeit-Übersicht</th>
                     <th scope="col">Bearbeiten?</th>
                     <th scope="col">Löschen?</th>
                 </tr>
@@ -33,13 +34,12 @@
                     <td>@item.Password</td>
                     @if (item.Admin)
                     {
-                        <td>ja</td>
-                    }
+                <td>ja</td>}
                     @if (!item.Admin)
                     {
-                        <td>nein</td>
-                    }
-                    <td><a href="/Home/EditEmployee/@item.EmployeeNumber">Edit</a></td>
+                <td>nein</td>}
+                    <td><a href="/Home/AdminTimeView/@item.EmployeeNumber">Arbeitszeit</a></td>
+                    <td><a href="/Home/EditEmployee/@item.EmployeeNumber">Bearbeiten</a></td>
                     <td><a href="/DB/DeleteEmployee/@item.EmployeeNumber">Löschen</a></td>
 
 

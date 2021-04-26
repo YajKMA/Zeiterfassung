@@ -1,0 +1,31 @@
+﻿@{ ViewBag.Title = "AdminTimeView"; }
+@{ var data = ViewBag.Message; }
+
+
+<h2>Arbeitszeitübersicht</h2>
+
+<div class="row">
+    <div class="col-lg-8">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+
+                    <th scope="col">Startzeit</th>
+                    <th scope="col">Endzeit</th>
+                    <th scope="col">Arbeitszeit</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in data)
+                {
+    <tr>
+        <td>@item.StartTime</td>
+        <td>@item.EndTime</td>
+        <td>@item.ResultTime</td>
+    </tr>}
+                Summe:
+            </tbody>
+        </table>
+    </div>
+</div>
+

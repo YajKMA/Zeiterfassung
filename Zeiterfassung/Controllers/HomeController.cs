@@ -18,7 +18,7 @@ namespace Zeiterfassung.Controllers
         IEmployeeLogic db = new DBEmployeeLogic();
         ITimeLogic tdb = new DBTimeLogic();
 
-        
+       
 
         public ActionResult Index()
         {
@@ -35,20 +35,28 @@ namespace Zeiterfassung.Controllers
             return View("../Login/Login", employee);
         }
 
-        public ActionResult EditEmployee(int id)
+        public ActionResult EditEmployee(Employee emp, int id)
         {
-            Employee employee = db.SQLReadEmployeebyID(id);
-            if (employee != null)
+            Session["user"] = emp;
+            if (emp.Admin == true)
             {
-                return View("EditEmployee", employee);
+                Employee employee = db.SQLReadEmployeebyID(id);
+                if (employee != null)
+                {
+                    return View("EditEmployee", employee);
+                }
+                return View("EmployeeList");
             }
-            return View("EmployeeList");
+            else
+            {
+                return RedirectToAction("Login", "Login");
+            }
         }
 
 
 
         [HttpPost]
-        public ActionResult Index(Zeiterfassung_Domain.Employee model)
+        public ActionResult Index(Employee model)
         {
             return View();
         }
@@ -85,11 +93,11 @@ namespace Zeiterfassung.Controllers
         public ActionResult Stop(ModelCombiner mc)
         {
             mc.employeemodel = (Employee)Session["user"];
-            if (mc.employeemodel.GivenEmail != null)
+            if (mc.employeemodel.Email != null)
             {
                 mc.timemodel.EndTime = DateTime.Now;
                 mc.timemodel.ResultTime = mc.timemodel.EndTime - mc.timemodel.StartTime;
-                tdb.SQLAddTime(mc.timemodel, mc.employeemodel.GivenEmail);
+                tdb.SQLAddTime(mc.timemodel, mc.employeemodel.EmployeeNumber);
                 return View("TimeStop", mc);
             }
             else
@@ -98,10 +106,18 @@ namespace Zeiterfassung.Controllers
             }           
         }
 
-        public ActionResult EmployeeList()
-        {            
-            ViewBag.Message = db;
-            return View();
+        public ActionResult EmployeeList(Employee emp)
+        {
+            emp = (Employee)Session["user"];
+            if (emp.Admin == true)
+            {
+                ViewBag.Message = db;
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login", "Login");
+            }           
         }
 
 
@@ -109,8 +125,25 @@ namespace Zeiterfassung.Controllers
         {
             ModelCombiner mc = new ModelCombiner();
             mc.employeemodel = (Employee)Session["User"];
-            ViewBag.Message = tdb.SQLReadTimebyID(mc.employeemodel.GivenEmail);   
+            ViewBag.Message = tdb.SQLReadTimebyID(mc.employeemodel.EmployeeNumber);   
             return View();
+        }
+
+        public ActionResult AdminTimeView(Employee emp, int id)
+        {
+            emp = (Employee)Session["user"];
+            if (emp.Admin == true)
+            {
+                ModelCombiner mc = new ModelCombiner();
+                mc.employeemodel = db.SQLReadEmployeebyID(id);
+                ViewBag.Message = tdb.SQLReadTimebyID(mc.employeemodel.EmployeeNumber);
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
         }
     }
 }

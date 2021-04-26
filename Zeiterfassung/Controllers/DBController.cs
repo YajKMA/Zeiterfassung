@@ -22,18 +22,33 @@ namespace Zeiterfassung.Controllers
 
         public ActionResult UpdateEmployee(Employee employee)
         {
-            ViewBag.Message = db;
-            db.SQLUpdateEmployee(employee);
-            return View("../Home/EmployeeList", employee);
+            Session["user"] = employee;
+            if (employee.Admin == true)
+            {
+                ViewBag.Message = db;
+                db.SQLUpdateEmployee(employee);
+                return View("../Home/EmployeeList", employee);
+            }
+            else
+            {
+                return RedirectToAction("Admin", "Home");
+            }
         }
+
 
         public ActionResult DeleteEmployee(Employee employee, int id)
         {
-            ViewBag.Message = db;
-            db.SQLRemoveEmployee(id);
-            return View("../Home/EmployeeList", employee);
+            Session["user"] = employee;
+            if (employee.Admin == true)
+            {
+                ViewBag.Message = db;
+                db.SQLRemoveEmployee(id);
+                return View("../Home/EmployeeList", employee);
+            }
+            else
+            {
+                return RedirectToAction("Login", "Login");
+            }
         }
-
-
     }
 }

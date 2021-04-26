@@ -22,9 +22,9 @@ namespace Zeiterfassung.Controllers
 
         [HttpPost]
         public ActionResult Login(Zeiterfassung_Domain.Employee model, Zeiterfassung_Domain.Employee emp)
-        {
-            Session["user"] = model;
+        {           
             emp = db.SQLReadEmployeebyEmail(model.GivenEmail);
+            Session["user"] = emp;
             if (emp.Admin == true)
             {
                 return RedirectToAction("Admin", "Home");

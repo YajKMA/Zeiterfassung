@@ -40,19 +40,18 @@ namespace DB
             }
         }
 
-        public void SQLAddTime(Time time, string Email)
+        public void SQLAddTime(Time time, int id)
         {
             MySqlConnection DBConnect = new MySqlConnection(connection);
             OpenConnection(DBConnect);
             Employee emp = new Employee();
 
-            db.SQLReadEmployeebyEmail(Email);
 
             
             string SQL = "INSERT INTO time(EmployeeNumber, StartTime, EndTime, ResultTime) VALUES(@EmployeeID,@StartTime,@EndTime,@ResultTime)";
             MySqlCommand cmd = new MySqlCommand(SQL, DBConnect);
 
-            cmd.Parameters.AddWithValue("EmployeeID", emp.EmployeeNumber);
+            cmd.Parameters.AddWithValue("EmployeeID", id);
             cmd.Parameters.AddWithValue("StartTime", time.StartTime);
             cmd.Parameters.AddWithValue("EndTime", time.EndTime);
             cmd.Parameters.AddWithValue("ResultTime", time.ResultTime.ToString());
@@ -94,20 +93,15 @@ namespace DB
 
         
 
-        public List<Time> SQLReadTimebyID(string Email)
+        public List<Time> SQLReadTimebyID(int id)
         {
             {
                 MySqlConnection DBConnect = new MySqlConnection(connection);
                 OpenConnection(DBConnect);
 
-                Employee emp = new Employee();
-
-                db.SQLReadEmployeebyEmail(Email);
-
-
                 List<Time> returnList = new List<Time>();
 
-                string sql = "SELECT * FROM time WHERE EmployeeNumber =" + emp.EmployeeNumber;
+                string sql = $"SELECT * FROM time WHERE EmployeeNumber = '{id}'";
                 MySqlCommand cmd = new MySqlCommand(sql, DBConnect);
                 OpenConnection(DBConnect);
                 MySqlDataReader rdr = cmd.ExecuteReader();
