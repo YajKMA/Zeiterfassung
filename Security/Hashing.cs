@@ -13,25 +13,23 @@ namespace Security
         {
             if (input != null)
             {
-                byte[] salt;
-                new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
+                using (SHA256 sha256Hash = SHA256.Create())
+                {
+                    // ComputeHash - returns byte array  
+                    byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
 
-                //Hash value erstellen
-                var phash = new Rfc2898DeriveBytes(input, salt, 100000);
-                byte[] hash = phash.GetBytes(20);
-
-                //Vorbereitung fürs salzen
-                byte[] hashBytes = new byte[36];
-                Array.Copy(salt, 0, hashBytes, 0, 16);
-                Array.Copy(hash, 0, hashBytes, 16, 20);
-
-                //Ordentliche Menge Salz raufpacken und in einem string speichern
-                string savedPasswordHash = Convert.ToBase64String(hashBytes);
-                return savedPasswordHash;
+                    // Convert byte array to a string   
+                    StringBuilder builder = new StringBuilder();
+                    for (int i = 0; i < bytes.Length; i++)
+                    {
+                        builder.Append(bytes[i].ToString("x2"));
+                    }
+                    return builder.ToString();
+                }
             }
             else
             {
-                throw new InvalidOperationException("Password is null du hund");
+                throw new InvalidOperationException("Password is null");
             }
             
         }

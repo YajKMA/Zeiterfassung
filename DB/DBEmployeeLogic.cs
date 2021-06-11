@@ -70,7 +70,7 @@ namespace DB
 
             cmd.Parameters.AddWithValue("EmployeeID", CountRows());
             cmd.Parameters.AddWithValue("Name", employee.Name);
-            cmd.Parameters.AddWithValue("Email", employee.Email);
+            cmd.Parameters.AddWithValue("Email", employee.GivenEmail);
             cmd.Parameters.AddWithValue("Password", HashedPassword);
             cmd.Parameters.AddWithValue("Admin", employee.Admin);
 

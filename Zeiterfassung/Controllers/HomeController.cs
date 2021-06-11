@@ -29,10 +29,19 @@ namespace Zeiterfassung.Controllers
             return View();
         }
 
-        public ActionResult InsertEmployees(Employee employee)
+        public ActionResult InsertEmployees(Employee model, Employee emp)
         {
-            db.SQLAddEmployee(employee);
-            return View("../Login/Login", employee);
+            emp = db.SQLReadEmployeebyEmail(model.GivenEmail);
+
+            if (emp == null)
+            {
+                db.SQLAddEmployee(model);
+                return View("../Login/Login", emp);
+            }
+            else
+            {
+                return RedirectToAction("Register", "Login");
+            }
         }
 
         public ActionResult EditEmployee(Employee emp, int id)

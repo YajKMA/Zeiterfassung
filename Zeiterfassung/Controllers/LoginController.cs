@@ -6,14 +6,16 @@ using System.Security.Cryptography;
 using System.Web;
 using System.Web.Mvc;
 using Zeiterfassung_Domain.Interface;
+using Security;
 
 namespace Zeiterfassung.Controllers
 {
 
     public class LoginController : Controller
     {
-
+        Hashing hash = new Hashing();
         IEmployeeLogic db = new DBEmployeeLogic();
+        
 
         public ActionResult Login()
         {
@@ -22,16 +24,32 @@ namespace Zeiterfassung.Controllers
 
         [HttpPost]
         public ActionResult Login(Zeiterfassung_Domain.Employee model, Zeiterfassung_Domain.Employee emp)
-        {           
+        {
             emp = db.SQLReadEmployeebyEmail(model.GivenEmail);
+
             Session["user"] = emp;
-            if (emp.Admin == true)
+            if (emp != null) //if the given email has not been registered yet 
             {
-                return RedirectToAction("Admin", "Home");
+                string hashedGivenPW = hash.GetHash(model.Password);
+                if (hashedGivenPW == emp.Password)
+                {
+                    if (emp.Admin == true)
+                    {
+                        return RedirectToAction("Admin", "Home");
+                    }
+                    else
+                    {
+                        return View("../Home/Index", model);
+                    }
             }
             else
             {
-                return View("../Home/Index", model);
+                return RedirectToAction("Login", "Login");
+            }
+        }
+            else
+            {
+            return RedirectToAction("Login", "Login");
             }
         }
 
@@ -47,40 +65,18 @@ namespace Zeiterfassung.Controllers
 
         
         [HttpPost]
-        public ActionResult Register(Zeiterfassung_Domain.Employee model)
+        public ActionResult Register(Zeiterfassung_Domain.Employee model, Zeiterfassung_Domain.Employee emp)
         {
-            if (model.Password != null && model.Password == model.RepeatPassword)
+            emp = db.SQLReadEmployeebyEmail(model.GivenEmail);
+
+            if (emp == null)
             {
-                ////Salz wird gewonnen
-                //byte[] salt;
-                //new RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);
-
-                ////Hash value erstellen
-                //var phash = new Rfc2898DeriveBytes(model.Password, salt, 100000);
-                //byte[] hash = phash.GetBytes(20);
-
-                ////Vorbereitung fürs salzen
-                //byte[] hashBytes = new byte[36];
-                //Array.Copy(salt, 0, hashBytes, 0, 16);
-                //Array.Copy(hash, 0, hashBytes, 16, 20);
-
-                ////Ordentliche Menge Salz raufpacken und in einem string speichern
-                //string savedPasswordHash = Convert.ToBase64String(hashBytes);
-                //model.Password = savedPasswordHash;
-                /////Datenbank hinzufügen
-                ///
+                return View("Login");
             }
             else
             {
-
-                return View("Register");
-
-            }
-
-            return View("Login");
+                return RedirectToAction("Register", "Login");
+            }            
         }
-
-
-
     }
 }
