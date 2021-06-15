@@ -7,10 +7,10 @@
     <div class="col-lg-6">
         @using (Html.BeginForm("Stop", "Home"))
         {
-<input type="submit" name="EndButton" value="Zählung stoppen" class="btn btn-primary btn-lg" /><br /><br />
-                @Html.HiddenFor(m => m.timemodel.StartTime)
-                @Html.HiddenFor(m => m.employeemodel.GivenEmail)
-                @Html.HiddenFor(m => m.employeemodel)
+            <input type="submit" name="EndButton" value="Zählung stoppen" class="btn btn-primary btn-lg" /><br /><br />
+            @Html.HiddenFor(m => m.timemodel.StartTime)
+            @Html.HiddenFor(m => m.employeemodel.GivenEmail)
+            @Html.HiddenFor(m => m.employeemodel)
         }
     </div>
 </div>
