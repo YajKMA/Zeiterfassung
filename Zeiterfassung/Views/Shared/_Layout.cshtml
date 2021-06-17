@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
-<<<<<<< HEAD
-=======
-
->>>>>>> d31ecb02544452cff94a655b9b787961b6b81957
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -22,18 +18,24 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
                     @Html.ActionLink("Informationen", "About", "Home", new { area = "" }, new { @class = "nav-link" })
                 </li>
                 <li class="nav-item">
                     @Html.ActionLink("Kontakt", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })
+                </li> 
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    @using (Html.BeginForm("Logout", "Login"))
+                    {
+                        <input class="btn btn-danger" type="submit" name="LogOut" value="Abmelden" />
+                    }
                 </li>
             </ul>
-            @using (Html.BeginForm("Logout", "Login"))
-            {
-                <input class="btn btn-danger" type="submit" name="LogOut" value="Abmelden" />
-            }
+                
+            
         </div>
     </nav>
     <div class="container body-content">
@@ -43,11 +45,6 @@
             <p>&copy; @DateTime.Now.Year - Philip Geier, Mario Kieler</p>
         </footer>
     </div>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d31ecb02544452cff94a655b9b787961b6b81957
     @RenderSection("scripts", required: false)
 </body>
 </html>
